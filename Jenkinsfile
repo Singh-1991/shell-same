@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Code CheckOut') {
             steps{
-                git branch: 'main', credentialsId: 'GitHub_Credentials', url: 'https://github.com/Singh-1991/Shell-Trail.git'
+                git branch: 'main', credentialsId: 'GitHub_Credentials', url: 'https://github.com/Singh-1991/shell-same.git'
             }
         }
             
